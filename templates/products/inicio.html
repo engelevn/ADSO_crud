@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container py-4">
+    <h1>Bienvenido a {{ tienda }}</h1>
+    <p>{{ descripcion }}</p>
+    <a href="{% url 'productos:lista' %}" class="btn btn-primary">Ver Productos</a>
+</div>
+{% endblock %}

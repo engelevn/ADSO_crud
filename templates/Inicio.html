@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container py-5 text-center">
+    <h1>Bienvenido a TecnoPunto</h1>
+    <p class="lead">Sistema CRUD de productos</p>
+    <a href="{% url 'productos:lista' %}" class="btn btn-primary mt-3">Ver productos</a>
+</div>
+{% endblock %}

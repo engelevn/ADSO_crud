@@ -1,3 +1,4 @@
-from django.test import TestCase
-
-# Create your tests here.
+INSTALLED_APPS = [
+    # ... otras apps ...
+    'productos',
+]
